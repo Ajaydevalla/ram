@@ -17,6 +17,7 @@ app.use("/api/books",bookrouter)
 app.use("/api/products",productrouter)
 
 var PORT=process.env.PORT || 3000
+// port 
 
 app.listen(PORT,()=>{
     console.log("server is running");
